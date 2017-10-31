@@ -1,3 +1,6 @@
 
-if __name__ == "__main__":
-	text = readfile("quotes.pdf")
+from pdfReader import *
+from pdfSpeaking import *
+
+text = readfile("quotes.pdf")
+fileSpeaker(text)
